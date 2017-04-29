@@ -1,0 +1,13 @@
+This is FatFs R0.11a by ChaN. You can find the original code at the following
+URL: http://elm-chan.org/fsw/ff/00index_e.html
+
+FatFs is a module for building applications that access FAT filesystems. It is
+designed primarily for use on small microcontrollers, but is written in standard
+ANSI C (C89) and should work on just about any platform. It is licensed under
+very permissive licensing terms. Please see the ff.c file in the src directory
+for information on the licensing terms.
+
+FatFs is provided for your project to give you a base for working with FAT
+filesystems. It will have to be adapted for use with FAT64 if you wish to use
+it in your project. In addition, you will have to write glue code to support
+using this code with FUSE.
